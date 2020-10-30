@@ -20,7 +20,7 @@
 }
 
 *:focus {
-    outline: none;
+    outline: 2px dotted red;
 }
 
 body {
