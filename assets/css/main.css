@@ -79,6 +79,7 @@ a.arrow {
     border-bottom: none;
     color: var(--font-color);
     text-decoration: none;
+    display: inline-block;
 }
 
 .text-center {
