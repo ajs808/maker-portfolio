@@ -17,6 +17,13 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    * {
+        scroll-behavior: auto;
+    }
 }
 
 *:focus {
@@ -26,6 +33,8 @@
 body {
     margin: 0;
 }
+
+
 
 
 /* Typography */
