@@ -75,6 +75,12 @@ a:hover {
     border-color: #00b3e5
 }
 
+a.arrow {
+    border-bottom: none;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
 .text-center {
     text-align: center;
 }
