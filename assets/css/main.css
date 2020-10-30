@@ -50,7 +50,7 @@ p {
     font-size: 24px;
 }
 
-a {
+p a {
     color: var(--font-color);
     display: inline-block;
     font-weight: 500;
