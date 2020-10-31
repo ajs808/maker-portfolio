@@ -91,6 +91,14 @@ a.arrow {
     display: inline-block;
 }
 
+a.image {
+    display: block;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.5%;
+}
+
 .text-center {
     text-align: center;
 }
