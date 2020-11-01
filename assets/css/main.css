@@ -215,7 +215,7 @@ footer p {
 }
 
 #name {
-    border-bottom: 4px dotted rgba(0, 179, 229, 0.5);
+    /*border-bottom: 4px dotted rgba(0, 179, 229, 0.5);*/
 }
 
 #_progress {
