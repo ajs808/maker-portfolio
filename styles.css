@@ -1,0 +1,38 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+    background-color: #111110;
+    color: #FAFAFA;
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.content {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 80px 20px 20px;
+}
+
+h1, .secondary, a {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.secondary {
+    color: #a0a0a0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
