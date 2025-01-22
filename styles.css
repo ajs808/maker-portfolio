@@ -32,6 +32,26 @@ h1, .secondary, a {
     color: #a0a0a0;
 }
 
+.cover {
+    width: 100%;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    align-items: end;
+}
+
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}  
+
 a {
     color: #FFFFFF;
     text-decoration: underline;
